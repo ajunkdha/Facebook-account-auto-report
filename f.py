@@ -21,7 +21,7 @@ driver.find_element_by_id("pass").send_keys('pass123$%') #replace with your pass
 time.sleep(2)
 driver.find_element_by_name("login").click()
 time.sleep(4)
-driver.get('https://www.facebook.com/profile.php?id=100089108025261') #replace with account url or that account which you want to report it.
+driver.get('https://www.facebook.com/profile.php?id=100001760552386') #replace with account url or that account which you want to report it.
 time.sleep(4)
 driver.find_element_by_xpath('/html/body/div[1]/div[1]/div[1]/div/div[3]/div/div/div/div[1]/div[1]/div/div/div[3]/div/div/div/div[2]/div/div/div/div[1]').click()#three dots
 time.sleep(3)
